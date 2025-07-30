@@ -1,5 +1,5 @@
 import { useState } from "react";
-import logo from "../assets/logo.png"; // coloca el logo en src/assets/logo.png
+import logo from "../assets/logo.png";
 
 export default function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
